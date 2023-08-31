@@ -41,7 +41,7 @@ int main()
     printf("Pessoas com menos de 16 anos: %.1lf %%\n", percentualmenores);
 
     for (int i = 0; i < N; i++) {
-        if (idades{i} < 16) {
+        if (idades[i] < 16) {
             printf("%s\n", nomes[i]);
         }
     }
