@@ -14,7 +14,7 @@ int main()
     cin >> altura; 
 
     area = base * altura;
-    perimetro = 2 * (base + altura);
+    perimetro = 2 * (base + 2 * altura);
     diagonal = sqrt(pow(base, 2.0) + pow(altura, 2.0));
 
     cout << fixed << setprecision(4);
