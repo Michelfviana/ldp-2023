@@ -5,7 +5,7 @@ c = int(input("Terceiro valor: "))
 if a < b and a < c: 
     menor = a 
 elif b < c:
-    menro = b 
+    menor = b 
 else:
     menor = c     
 print(f"MENOR = {menor}")   
