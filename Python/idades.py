@@ -1,6 +1,7 @@
 print("Dados da primeira pessoa: ")
 nome1 = input("Nome:")
 idade1 = int(input("idade: "))
+
 print("Dados da segunda pessoa: ")
 nome2 = input("Nome:")
 idade2 = int(input("idade: "))
