@@ -2,7 +2,7 @@ n: int; qtdnegativos: int
 
 n = int(input("Qual a ordem da matriz? "))
 
-matriz: [[int]] = [[0 for x in range(n)] for x in range(n)]
+matriz: [[int]] = [[0 for x in range(n)] for x in range(n)] # type: ignore
 
 for i in range(n):
 	for j in range(n):
