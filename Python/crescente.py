@@ -2,7 +2,7 @@ print("Digite dois numeros: ")
 x = int(input())
 y = int(input())
 
-while x != y: 
+while x != y:
     if x < y:
         print("CRESCENTE!")
     else:
@@ -10,4 +10,4 @@ while x != y:
 
     print("Digite outros dois numeros:")
     x = int(input())
-    y = int(input())    
+    y = int(input())
