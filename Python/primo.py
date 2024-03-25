@@ -1,21 +1,14 @@
-def primo(numero):
-    if numero <= 1:
+def is_prime(n):
+    if n <= 1:
         return False
-    if numero == 2:
-        return True
-    if numero % 2 == 0:
-        return False
-    i = 3
-    while i * i <= numero:
-        if numero % i == 0:
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
             return False
-        i += 2
     return True
 
-
-# Exemplo de uso
-numero = 17
-if primo(numero):
-    print(f"{numero} é um número primo.")
+# Test the function
+number = int(input("Enter a number: "))
+if is_prime(number):
+    print(number, "is a prime number")
 else:
-    print(f"{numero} não é um número primo.")
+    print(number, "is not a prime number")

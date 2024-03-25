@@ -1,22 +1,8 @@
-def get_answer():
-	valid_responses = ("sim", "não")
-	while True:
-		response = input("Você me ama? (sim/não): ").lower()
-		if response in valid_responses:
-			return response
-		else:
-			print(
-				"Desculpe, resposta inválida. Por favor, responda com 'sim' ou 'não'."
-			)
+answer = input("Do you love? (yes/no): ")
 
-
-def main():
-	answer = get_answer()
-	if answer == "sim":
-		print("Que bom! Eu também te adoro!")
-	elif answer == "não":
-		print("Ah, que pena! Estou aqui se precisar de mim.")
-
-
-if __name__ == "__main__":
-	main()
+if answer.lower() == "yes" or answer.lower() == "y":
+	print("That's wonderful! Love is a beautiful thing.")
+elif answer.lower() == "no" or answer.lower() == "n":
+	print("That's okay. Love is not for everyone.")
+else:
+	print("Invalid answer. Please enter 'yes' or 'no'.")
