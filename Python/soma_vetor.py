@@ -1,7 +1,7 @@
 n: int
 soma: float; media: float
 
-n = int(input("Quantos numeros voce vai digitar? "))
+n = int(input("Quantos números voce vai digitar? "))
 
 vetor: [float] = [0 for x in range(n)] # type: ignore
 

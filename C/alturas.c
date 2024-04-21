@@ -5,7 +5,7 @@ int main()
     int N, nmenores; 
     double soma, media, percentualmenores;
 
-    printf("Quantas pessoas serao digitadas? ");
+    printf("Quantas pessoas serão digitadas? ");
     scanf("%d", &N);
 
     char nomes[N][50];

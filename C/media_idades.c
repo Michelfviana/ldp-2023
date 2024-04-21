@@ -17,7 +17,7 @@ int main()
     }   
 
     if (cont == 0) {
-        printf("IMPOSSIVEL CALCULAR\n");
+        printf("IMPOSSÍVEL CALCULAR\n");
     }
     else {
         media = (double)soma / cont;

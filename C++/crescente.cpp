@@ -6,7 +6,7 @@ int main()
 {
     int x, y; 
 
-    cout << "Digite dois numeros : " << endl;
+    cout << "Digite dois números : " << endl;
     cin >> x >> y;
 
     while (x != y) {
@@ -17,7 +17,7 @@ int main()
             cout << "DECRESCENTE!" << endl;
         }
 
-        cout << "Digite outros dois numeros:" <<  endl;
+        cout << "Digite outros dois números:" <<  endl;
         cin >> x >> y;
     }   
 

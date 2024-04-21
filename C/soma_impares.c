@@ -4,7 +4,7 @@ int main()
 {
     int x, y, soma, troca;
 
-    printf("Digite dois numeros:\n");
+    printf("Digite dois números:\n");
     scanf("%d %d", &x, &y);
     
     if (x > y) {

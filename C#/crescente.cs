@@ -8,7 +8,7 @@ namespace crescente
 		{
 			int x, y;
 
-			Console.WriteLine("Digite dois numeros:");
+			Console.WriteLine("Digite dois números:");
 			x = int.Parse(Console.ReadLine());
 			y = int.Parse(Console.ReadLine());
 
@@ -23,7 +23,7 @@ namespace crescente
 					Console.WriteLine("CRESCENTE!");
 				}
 
-				Console.WriteLine("Digite outros dois numeros:");
+				Console.WriteLine("Digite outros dois números:");
 				x = int.Parse(Console.ReadLine());
 				y = int.Parse(Console.ReadLine());
 			}

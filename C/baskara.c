@@ -16,7 +16,7 @@ int main()
 
     if (a == 0 || delta < 0)
     {
-        printf("Esta equação não possui raizes reais\n");
+        printf("Esta equação não possui raízes reais\n");
     }
     else
     {

@@ -10,16 +10,16 @@ public class retangulo {
 		
 		double base, altura, area, perimetro, diagonal;
 
-	    System.out.print("Base do retangulo: ");
+	    System.out.print("Base do retângulo: ");
 	    base = sc.nextDouble();
-	    System.out.print("Altura do retangulo: ");
+	    System.out.print("Altura do retângulo: ");
 	    altura = sc.nextDouble();
 
 	    area = base * altura;
 	    System.out.printf("AREA = %.4f\n", area);
 	    perimetro = 2 * (base + altura);
 
-	    System.out.printf("PERIMETRO = %.4f\n", perimetro);
+	    System.out.printf("PERÍMETRO = %.4f\n", perimetro);
 	    diagonal = Math.sqrt(base * base + altura * altura);
 	    System.out.printf("DIAGONAL = %.4f\n", diagonal);
 

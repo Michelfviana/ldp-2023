@@ -10,7 +10,7 @@ public class soma_impares {
 
         int x, y, troca, soma;
 
-        System.out.println("Digite dois numeros: ");
+        System.out.println("Digite dois números: ");
         x = sc.nextInt();
         y = sc.nextInt();
         

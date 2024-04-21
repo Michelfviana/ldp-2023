@@ -10,7 +10,7 @@ public class crescente {
 		
 		int x, y;
 
-		System.out.println("Digite dois numeros: ");
+		System.out.println("Digite dois números: ");
 		x = sc.nextInt();
 		y = sc.nextInt();
 
@@ -21,7 +21,7 @@ public class crescente {
 			else {
 				System.out.println("DECRECENTE");
 			} 
-			System.out.println("Digite outros dois numeros");
+			System.out.println("Digite outros dois números");
 			x = sc.nextInt();
 			y = sc.nextInt();
 

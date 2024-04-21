@@ -4,7 +4,7 @@ int main()
 {
     int x, y;
 
-    printf("Digite dois numeros:\n");
+    printf("Digite dois números:\n");
     scanf("%d,", &x);
     scanf("%d,", &y);
 
@@ -16,7 +16,7 @@ int main()
             printf("Decrescente\n");
         }
 
-        printf("Digite outros dois numeros:\n");
+        printf("Digite outros dois números:\n");
         scanf("%d,", &x);
         scanf("%d,", &y);
     }

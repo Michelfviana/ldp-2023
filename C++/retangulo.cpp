@@ -6,9 +6,9 @@ int main()
 {
     double base, altura, area, perimetro, diagonal; 
 
-    cout << "Base do retangulo: ";
+    cout << "Base do retângulo: ";
     cin >> base;
-    cout << "altura do retangulo: ";
+    cout << "altura do retângulo: ";
     cin >> altura; 
 
     area = base * altura;
@@ -17,7 +17,7 @@ int main()
 
     cout << fixed << setprecision(4);
     cout << "AREA = " << area << endl;
-    cout << "PERIMETRO = " << perimetro << endl;
+    cout << "PERÍMETRO = " << perimetro << endl;
     cout << "DIAGONAL = " << diagonal << endl;
 
     return 0;

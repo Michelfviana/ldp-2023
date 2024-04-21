@@ -8,7 +8,7 @@ namespace soma_impares
 		{
 			int x, y, soma, troca;
 
-			Console.WriteLine("Digite dois numeros:");
+			Console.WriteLine("Digite dois números:");
 			x = int.Parse(Console.ReadLine());
 			y = int.Parse(Console.ReadLine());
 

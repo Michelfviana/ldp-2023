@@ -4,7 +4,7 @@ int main()
 {
     int N;
 
-    printf("Quantos numeros voce vai digitar? ");
+    printf("Quantos números voce vai digitar? ");
     scanf("%d", &N);
 
     int vet[N];
@@ -14,7 +14,7 @@ int main()
         scanf("%d", &vet[i]);
     }
 
-    printf("\nNUMEROS NEGATIVOS:\n");
+    printf("\nNÚMEROS NEGATIVOS:\n");
     for (int i = 0; i < N; i++) {
         if (vet[i] < 0) {
             printf("d\n", vet[i]);

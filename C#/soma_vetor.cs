@@ -12,7 +12,7 @@ namespace soma_vetor
 			int n;
 			double soma, media;
 
-			Console.Write("Quantos numeros voce vai digitar? ");
+			Console.Write("Quantos números voce vai digitar? ");
 			n = int.Parse(Console.ReadLine());
 
 			double[] vetor = new double[n];

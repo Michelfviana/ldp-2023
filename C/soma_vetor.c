@@ -5,7 +5,7 @@ int main()
     int N;
     double soma, media;
 
-    printf("Quantos numeros voce vai digitar? ");
+    printf("Quantos números voce vai digitar? ");
     scanf("%d", &N);
 
     double vet[N];

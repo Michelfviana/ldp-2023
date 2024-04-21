@@ -6,7 +6,7 @@ int main()
 {
     int x, y, troca, soma;
 
-    cout << "Digite dois numeros" << endl;  
+    cout << "Digite dois números" << endl;  
     cin >> x >> y;
 
     if ( x > y) {
